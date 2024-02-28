@@ -67,27 +67,30 @@ section {
 }
 
 /* <!-- welcome section  --> */
-.welcome{
+.welcome {
     position: relative;
 }
-.welcome-info{
+
+.welcome-info {
     color: white;
     position: absolute;
     top: 40%;
     left: 10%;
 }
+
 .welcome-info h1 {
     font-size: 49px;
     text-transform: capitalize;
     letter-spacing: 4px;
-    
+
 }
 
 .welcome-info p {
     font-size: 22px;
     color: rgb(224, 214, 214);
 }
-.welcome-info button{
+
+.btn {
     padding: 8px;
     width: 15%;
     color: white;
@@ -95,9 +98,61 @@ section {
     font-weight: bold;
     border: none;
     border-radius: 10px;
-    background-color: rgb(126, 122, 117);
+    background-color: red;
     margin-top: 8px;
 }
-.welcome-info button:hover{
+
+.btn:hover {
     background-color: aquamarine;
+}
+
+/* <!-- shedule section  --> */
+.shedule {
+    width: 1320px;
+    height: 300px;
+    background-color: rgb(240, 238, 236);
+    border-radius: 10px;
+    display: flex;
+
+    justify-content: center;
+    flex-direction: column;
+}
+
+.shedule-info {
+    text-align: center;
+    line-height: 3em;
+    text-transform: capitalize;
+   
+}
+
+.shedule-info span {
+    color: red;
+}
+/* <!-- grid section  --> */
+.grid-section{
+    display: flex;
+   align-items: center;
+   justify-content: center;
+   text-transform: capitalize;
+   gap: 3em;
+}
+.grid-section span{
+    color: red;
+}
+.grid-section-1st h1{
+    margin-top: 8px;
+    font-size: 28px;
+    margin-bottom: 5px;
+}
+.grid-section-img{
+    width: 400px;
+    border: 14px solid red;
+    border-radius: 50%;
+    padding: 2em;
+}
+.grid-section-img img{
+    width: 300px;
+}
+.grid-section-3rd h2,p{
+    margin-bottom: 1rem;
 }
