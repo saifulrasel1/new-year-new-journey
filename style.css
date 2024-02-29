@@ -280,12 +280,7 @@ p {
     margin-top: 8px;
     margin-bottom: 8px;
 }
-/* footer section  */
-footer{
-    width: 100%;
-    background-color: black;
-    margin-top: 4rem;
-}
+
 
 .subscribe-info p {
     color: gray;
@@ -314,4 +309,39 @@ footer{
     font-weight: bold;
     font-size: 16px;
     cursor: pointer;
+}
+
+/* footer section  */
+/* footer section  */
+footer{
+    width: 100%;
+    background-color: black;
+    margin-top: 4rem;
+
+}
+
+.footer-first-info{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2em 16em;
+  
+}
+hr{
+    border: 0.1px solid gray;
+}
+.footer-2nd-info{
+    text-align: center;
+    padding: 1.5rem;
+}
+.footer-2nd-info img{
+    margin-right: 4rem;
+}
+.footer-3rd-info{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    margin-top: 1rem;
 }
