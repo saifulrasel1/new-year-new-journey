@@ -239,12 +239,14 @@ p {
     text-transform: capitalize;
     margin-bottom: 10px;
 }
-.portfolio-info h1{
+
+.portfolio-info h1 {
     margin-bottom: 10px;
     text-transform: capitalize;
     font-size: 30px;
 }
-.portfolio-info p{
+
+.portfolio-info p {
     color: gray;
 }
 
@@ -254,4 +256,62 @@ p {
     gap: 15px;
     margin-top: 3rem;
 
+}
+
+/* subscribe section  */
+.subscribe {
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(240, 238, 236);
+    border-radius: 10px;
+}
+
+.subscribe-info {
+    text-align: center;
+    text-transform: capitalize;
+    margin-bottom: 2rem;
+}
+
+.subscribe-info h2 {
+    font-size: 36px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+/* footer section  */
+footer{
+    width: 100%;
+    background-color: black;
+    margin-top: 4rem;
+}
+
+.subscribe-info p {
+    color: gray;
+}
+
+.subscribe-input {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.subscribe-input input {
+    width: 30%;
+    padding: 10px ;
+    border: none;
+    border-radius: 15px 0px 0px 15px;
+}
+
+.subscribe-input button {
+    padding: 9px 24px;
+    border-radius: 0px 15px 15px 0px;
+    border: none;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
 }
